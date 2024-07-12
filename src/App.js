@@ -21,6 +21,7 @@ function App() {
 
   const [theme, colorMode] = useMode();
 
+  
   return (
     <Router>
       <ColorModeContext.Provider value={colorMode}>
