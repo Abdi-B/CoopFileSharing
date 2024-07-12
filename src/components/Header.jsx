@@ -6,7 +6,6 @@ const Header = ({ title, subtitle }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
 
-
   return (
     <Box m="5px 0 30px 20px">
       <Typography
