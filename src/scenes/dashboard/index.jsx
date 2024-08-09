@@ -1,6 +1,9 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
 import Header from "../../components/Header";
+import PieChart from "../../components/PieChart";
+import FAQ from "../faq";
+import BarChart from "../../components/BarChart";
 
 const Dashboard = () => {
   return (
@@ -9,6 +12,10 @@ const Dashboard = () => {
       <Box display="flex" justifyContent="space-between" alignItems="center">
         <Header title="DASHBOARD" subtitle="Welcome to our dashboard" />
       </Box>
+      <PieChart />
+      <BarChart />
+      
+      {/* <FAQ /> */}
     </Box>
   );
 };

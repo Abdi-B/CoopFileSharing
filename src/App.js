@@ -17,11 +17,9 @@ import FAQ from "./scenes/faq";
 import Calendar from "./scenes/calendar";
 import Announcement from "./scenes/Announcement/Announcement";
 
-function App() { 
-
+function App() {
   const [theme, colorMode] = useMode();
 
-  
   return (
     <Router>
       <ColorModeContext.Provider value={colorMode}>
@@ -35,6 +33,7 @@ function App() {
               <Topbar />
               <Routes>
                 <Route exact path="/" element={<Dashboard />} />
+                {/* <Route path="/dashboard" element={<Dashboard />} /> */}
                 <Route path="/file/:item/:item2" element={<DepartmentFile />} />
                 <Route path="/userform" element={<AddUser />} />
                 <Route path="/user" element={<UserTable />} />
@@ -59,6 +58,6 @@ function App() {
       </ColorModeContext.Provider>
     </Router>
   );
-};
+}
 
 export default App;
