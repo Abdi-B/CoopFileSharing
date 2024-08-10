@@ -4,18 +4,33 @@ import Header from "../../components/Header";
 import PieChart from "../../components/PieChart";
 import FAQ from "../faq";
 import BarChart from "../../components/BarChart";
+import LineChart from "../../components/LineChart";
 
 const Dashboard = () => {
   return (
-    <Box m="20px 0 0 5px">
-      {/* <Typography>Dashboard</Typography> */}
-      <Box display="flex" justifyContent="space-between" alignItems="center">
-        <Header title="DASHBOARD" subtitle="Welcome to our dashboard" />
+
+    <Box>
+      <Box m="20px 0 0 5px">
+        <Box display="flex" justifyContent="space-between" alignItems="center">
+          <Header title="DASHBOARD" subtitle="Welcome to our dashboard" />
+        </Box>
       </Box>
-      <PieChart />
-      <BarChart />
-      
-      {/* <FAQ /> */}
+      <Box
+        m="15px"
+        display="grid"
+        gridTemplateColumns="repeat(2, 1fr)"
+        gap="10px"
+      >
+        <Box height="370px">
+          <PieChart />
+        </Box>
+        <Box height="370px">
+          <BarChart />
+        </Box>
+        <Box height="400px">
+          <LineChart />
+        </Box> 
+      </Box>
     </Box>
   );
 };

@@ -16,6 +16,7 @@ import CoopLibrary from "./scenes/ManageBooks/CoopLibrary.";
 import FAQ from "./scenes/faq";
 import Calendar from "./scenes/calendar";
 import Announcement from "./scenes/Announcement/Announcement";
+import PieChart from "./components/PieChart";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -37,6 +38,7 @@ function App() {
                 <Route path="/file/:item/:item2" element={<DepartmentFile />} />
                 <Route path="/userform" element={<AddUser />} />
                 <Route path="/user" element={<UserTable />} />
+                {/* <Route path="/pie" element={<PieChart />} /> */}
 
                 {/* BOOK  */}
                 <Route path="/books" element={<BooksTable />} />
