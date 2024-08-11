@@ -36,7 +36,7 @@ const Topbar = () => {
         </IconButton>
       </Box>
 
-      <Typography variant="h1" >CoopBank of Oromia File Sharing</Typography>
+      <Typography variant="h3" >CoopBank of Oromia File Sharing</Typography>
 
       {/* ICONS  */}
       <Box>
