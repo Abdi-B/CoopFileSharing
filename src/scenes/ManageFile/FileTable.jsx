@@ -1,6 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { DataGrid } from "@mui/x-data-grid";
-import { Box, Card, IconButton, Stack, Typography } from "@mui/material";
+import {
+  Box,
+  Button,
+  Card,
+  IconButton,
+  Stack,
+  Typography,
+} from "@mui/material";
 import axios from "axios";
 import Header from "../../components/Header";
 import { useTheme } from "@mui/material";
@@ -8,7 +15,8 @@ import { tokens } from "../../theme";
 import EditOutlinedIcon from "@mui/icons-material/EditOutlined";
 import SaveOutlinedIcon from "@mui/icons-material/SaveOutlined";
 import DeleteForeverOutlinedIcon from "@mui/icons-material/DeleteForeverOutlined";
-import { files } from '../../data/mockData'
+import { files } from "../../data/mockData";
+import { useNavigate } from "react-router-dom";
 
 const columns = [
   { field: "id", headerName: "ID" },
@@ -42,6 +50,7 @@ const columns = [
 
 const FileTable = () => {
   const theme = useTheme();
+  const navigate = useNavigate();
   const colors = tokens(theme.palette.mode);
 
   // const [files, setFiles] = useState([]);
@@ -64,6 +73,10 @@ const FileTable = () => {
   //   size: file.size / 1000,
   //   createdAt: file.createdAt.substring(0, 10),
   // }));
+
+  const handleAddNewFile = () => {
+    navigate("/addFile");
+  };
 
   return (
     <Box m="20px">
@@ -104,6 +117,16 @@ const FileTable = () => {
           },
         }}
       >
+        <Box display="flex" justifyContent="end" m="0 10px 10px 0">
+          <Button
+            type="submit"
+            color="secondary"
+            variant="contained"
+            onClick={handleAddNewFile}
+          >
+            Add New File
+          </Button>
+        </Box>
         <DataGrid checkboxSelection rows={files} columns={columns} />
       </Box>
     </Box>

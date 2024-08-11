@@ -17,6 +17,7 @@ import FAQ from "./scenes/faq";
 import Calendar from "./scenes/calendar";
 import Announcement from "./scenes/Announcement/Announcement";
 import PieChart from "./components/PieChart";
+import AddFile from "./scenes/ManageFile/AddFile";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -47,6 +48,7 @@ function App() {
 
                 {/* FILES */}
                 <Route path="/files" element={<FileTable />} />
+                <Route path="/addFile" element={<AddFile />} />
 
                 <Route path="/calendar" element={<Calendar />} />
                 <Route path="/announcement" element={<Announcement />} />

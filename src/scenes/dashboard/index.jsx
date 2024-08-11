@@ -16,7 +16,7 @@ const Dashboard = () => {
         </Box>
       </Box>
       <Box
-        m="15px"
+        m="10px"
         display="grid"
         gridTemplateColumns="repeat(2, 1fr)"
         gap="10px"
