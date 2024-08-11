@@ -80,10 +80,7 @@ const FileTable = () => {
 
   return (
     <Box m="20px">
-      <Header
-        title="Books Information"
-        subtitle="List of Books for a Reference"
-      />
+      <Header title="Files Information" subtitle="List of Files to manage it" />
       <Box
         m="40px 0 0 0"
         // height="auto"
