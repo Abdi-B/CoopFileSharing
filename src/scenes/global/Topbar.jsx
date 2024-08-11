@@ -6,7 +6,13 @@ import NotificationModeOutlinedIcon from "@mui/icons-material/NotificationsOutli
 import SettingsModeOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import PersonModeOutlinedIcon from "@mui/icons-material/PersonOutlined";
 import SearchIcon from "@mui/icons-material/Search";
-import { Box, IconButton, InputBase, Typography, useTheme } from "@mui/material";
+import {
+  Box,
+  IconButton,
+  InputBase,
+  Typography,
+  useTheme,
+} from "@mui/material";
 import { ColorModeContext, tokens } from "../../theme";
 
 // const styledBox = styled(Box)``;
@@ -36,7 +42,9 @@ const Topbar = () => {
         </IconButton>
       </Box>
 
-      <Typography variant="h3" >CoopBank of Oromia File Sharing</Typography>
+      <Typography variant="h3">
+        Cooperative Bank of Oromia's File Sharing
+      </Typography>
 
       {/* ICONS  */}
       <Box>
