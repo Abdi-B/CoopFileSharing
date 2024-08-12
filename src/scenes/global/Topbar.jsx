@@ -41,7 +41,6 @@ const Topbar = () => {
           <SearchIcon />
         </IconButton>
       </Box>
-
       <Typography variant="h3">
         Cooperative Bank of Oromia's File Sharing
       </Typography>
