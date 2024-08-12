@@ -6,10 +6,7 @@ export const role = [
     firstName: "Abdi",
     lastName: "Bacha",
     email: "abdi@gmail.com",
-    password: "$2a$12$gcw1HdA5bzjGTBJBUpW1NeGl4xmyqUui142iuGepEK5.CJqUapn3W",
     role: "admin",
-    createdAt: { $date: { $numberLong: "1713249334730" } },
-    updatedAt: { $date: { $numberLong: "1713258170724" } },
   },
   {
     id: 2,
@@ -17,8 +14,6 @@ export const role = [
     lastName: "test",
     email: "test@gmail.com",
     role: "user",
-    createdAt: { $date: { $numberLong: "1713336158777" } },
-    updatedAt: { $date: { $numberLong: "1713336158777" } },
   },
   {
     id: 3,
@@ -27,18 +22,13 @@ export const role = [
     email: "testhello1@gmail.com",
     role: "superAdmin",
     active: true,
-    createdAt: { $date: { $numberLong: "1713355011581" } },
-    updatedAt: { $date: { $numberLong: "1713355011581" } },
   },
   {
     id: 4,
     firstName: "Test3",
     lastName: "Hello3",
     email: "test3hello3@gmail.com",
-    password: "$2a$12$gcw1HdA5bzjGTBJBUpW1NeGl4xmyqUui142iuGepEK5.CJqUapn3W",
     role: "admin",
-    createdAt: { $date: { $numberLong: "1713249334730" } },
-    updatedAt: { $date: { $numberLong: "1713258170724" } },
   },
   {
     id: 5,
@@ -46,8 +36,6 @@ export const role = [
     lastName: "hello",
     email: "test4hello@gmail.com",
     role: "user",
-    createdAt: { $date: { $numberLong: "1713336158777" } },
-    updatedAt: { $date: { $numberLong: "1713336158777" } },
   },
   {
     id: 6,
@@ -56,8 +44,6 @@ export const role = [
     email: "testhello@gmail.com",
     role: "superAdmin",
     active: true,
-    createdAt: { $date: { $numberLong: "1713355011581" } },
-    updatedAt: { $date: { $numberLong: "1713355011581" } },
   },
 ];
 
