@@ -120,7 +120,7 @@ export const books = [
   },
   {
     id: 4,
-    category: "Business",
+    category: "1PMiness",
     title: "KYC",
     author: "John",
     sharedBy: "Abdi B" || "",
@@ -253,51 +253,51 @@ export const mockPieData = [
 
 export const mockLineData = [
   {
-    id: "japan",
+    id: "Deposit",
     color: tokens("dark").greenAccent[500],
     data: [
       {
-        x: "plane",
+        x: "8AM",
         y: 101,
       },
       {
-        x: "helicopter",
+        x: "9AM",
         y: 75,
       },
       {
-        x: "boat",
+        x: "10AM",
         y: 36,
       },
       {
-        x: "train",
+        x: "11AM",
         y: 216,
       },
       {
-        x: "subway",
+        x: "12AM",
         y: 35,
       },
       {
-        x: "bus",
+        x: "1PM",
         y: 236,
       },
       {
-        x: "car",
+        x: "2PM",
         y: 88,
       },
       {
-        x: "moto",
+        x: "3PM",
         y: 232,
       },
       {
-        x: "bicycle",
+        x: "4PM",
         y: 281,
       },
       {
-        x: "horse",
+        x: "5PM",
         y: 1,
       },
       {
-        x: "skateboard",
+        x: "6PM",
         y: 35,
       },
       {
@@ -307,51 +307,51 @@ export const mockLineData = [
     ],
   },
   {
-    id: "france",
+    id: "ATM withdrawal",
     color: tokens("dark").blueAccent[300],
     data: [
       {
-        x: "plane",
+        x: "8AM",
         y: 212,
       },
       {
-        x: "helicopter",
+        x: "9AM",
         y: 190,
       },
       {
-        x: "boat",
+        x: "10AM",
         y: 270,
       },
       {
-        x: "train",
+        x: "11AM",
         y: 9,
       },
       {
-        x: "subway",
+        x: "12AM",
         y: 75,
       },
       {
-        x: "bus",
+        x: "1PM",
         y: 175,
       },
       {
-        x: "car",
+        x: "2PM",
         y: 33,
       },
       {
-        x: "moto",
+        x: "3PM",
         y: 189,
       },
       {
-        x: "bicycle",
+        x: "4PM",
         y: 97,
       },
       {
-        x: "horse",
+        x: "5PM",
         y: 87,
       },
       {
-        x: "skateboard",
+        x: "6PM",
         y: 299,
       },
       {
@@ -361,51 +361,51 @@ export const mockLineData = [
     ],
   },
   {
-    id: "us",
+    id: "Mobile Banking",
     color: tokens("dark").redAccent[200],
     data: [
       {
-        x: "plane",
+        x: "8AM",
         y: 191,
       },
       {
-        x: "helicopter",
+        x: "9AM",
         y: 136,
       },
       {
-        x: "boat",
+        x: "10AM",
         y: 91,
       },
       {
-        x: "train",
+        x: "11AM",
         y: 190,
       },
       {
-        x: "subway",
+        x: "12AM",
         y: 211,
       },
       {
-        x: "bus",
+        x: "1PM",
         y: 152,
       },
       {
-        x: "car",
+        x: "2PM",
         y: 189,
       },
       {
-        x: "moto",
+        x: "3PM",
         y: 152,
       },
       {
-        x: "bicycle",
+        x: "4PM",
         y: 8,
       },
       {
-        x: "horse",
+        x: "5PM",
         y: 197,
       },
       {
-        x: "skateboard",
+        x: "6PM",
         y: 107,
       },
       {
